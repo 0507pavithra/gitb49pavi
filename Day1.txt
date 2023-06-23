@@ -1,0 +1,26 @@
+HTTP/1.1:
+       
+        *This first version of HTTP was called HTTP/1.1.
+        *This is the simpleway for computers to understand each other.
+        *A connection could be reused, which saved time.
+        *Updating or using its local cache in a specific way.
+        *This allowed a second request to be sent before the answer to the first one was fully transmitted.
+
+
+HTTP/2:
+
+      *It's a binary protocol rather than a text protocol.
+      *It can't be read and created manually.
+      *It compresses headers.
+      *As these are often similar among a set of requests, this removes the duplication and overhead of data transmitted.
+      *It allows a server to populate data in a client cache through a mechanism called the server push.
+
+
+
+OBJECTS AND ITS INTERNAL REPRESENTATION IN JAVASCRIPT:
+
+     *Objects are important data types in javascript. Objects are different than primitive datatypes (i.e. number, string, boolean, etc.).
+     *Primitive data types contain one value but Objects can hold many values in form of Key: value pair. 
+     *These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+     *Every object has some property associated with some value. These values can be accessed using these properties associated with them.
+
